@@ -1,0 +1,40 @@
+<view class='button'>
+     <view class='showkindow'>{{screenNum}}</view> 
+    <view capture-bind:touchstart="compute">
+     <view>
+       <button data-val='clear' hover-class='shadow' class='bottomw bottom1'>AC</button>
+       <button data-val='back' hover-class='shadow' class='bottomw bottom1'>DEL</button>
+       <button data-val='#' hover-class='shadow' class='bottomw bottom1'>#</button>
+       <button data-val='÷' hover-class='shadow' class='bottomw bottom'>÷</button>
+     </view>
+     <view>
+       <button data-val='sin' hover-class='shadow' class='bottomw bottom1'>sin</button>
+       <button data-val='cos' hover-class='shadow' class='bottomw bottom1'>cos</button>
+       <button data-val='tan' hover-class='shadow' class='bottomw bottom1'>tan</button>
+       <button data-val='±' hover-class='shadow' class='bottomw bottom'>±</button>
+     </view>
+       <view>
+       <button data-val='7' hover-class='shadow' class='bottomw'>7</button>
+       <button data-val='8' hover-class='shadow' class='bottomw'>8</button>
+       <button data-val='9' hover-class='shadow' class='bottomw'>9</button>
+       <button data-val='x' hover-class='shadow' class='bottomw bottom'>x</button>
+     </view>
+       <view>
+       <button data-val='4' hover-class='shadow' class='bottomw'>4</button>
+       <button data-val='5' hover-class='shadow' class='bottomw'>5</button>
+       <button data-val='6' hover-class='shadow' class='bottomw'>6</button>
+       <button data-val='-' hover-class='shadow' class='bottomw bottom'>-</button>
+     </view>
+       <view>
+       <button data-val='1' hover-class='shadow' class='bottomw'>1</button>
+       <button data-val='2' hover-class='shadow' class='bottomw'>2</button>
+       <button data-val='3' hover-class='shadow' class='bottomw'>3</button>
+       <button data-val='+' hover-class='shadow' class='bottomw bottom'>+</button>
+     </view>
+       <view>
+       <button data-val='1' hover-class='shadow' class='bottomw bottom2'>0</button>
+       <button data-val='.' hover-class='shadow' class='bottomw'>.</button>
+       <button data-val='=' hover-class='shadow' class='bottomw bottom'>=</button>
+     </view>
+    </view>
+</view>
